@@ -26,7 +26,7 @@
 -- /caller/ to ensure prompt cleanup. See its comment for more
 -- information.
 module Data.KeyedPool
-    ( KeyedPool
+    ( KeyedPool (..)
     , createKeyedPool
     , takeKeyedPool
     , Managed
